@@ -45,6 +45,7 @@
 .xtr-color:hover{
   transform: scale(1.20);
   color: #168036 !important;
+  text-shadow:2px 2px 2px #168036;
 }
 
 .contact-badge {
@@ -335,6 +336,13 @@ font-size: 5vw;
   .bg-blue {
     background-color: #234471;
     color: white;
+    transition: transform .15s;
+  }
+  .bg-blue:hover {
+    background-color: #234471;
+    color: white;
+    transform: scale(1.07);
+    box-shadow: 0px 0px 10px 5px #2343717c !important;
   }
   .event-height {
     height: 320px;
@@ -342,18 +350,41 @@ font-size: 5vw;
   }
   .event-lowest-height{
     height: 210px;
+    transition: transform .15s;
+  }
+  .event-lowest-height:hover{
+    height: 210px;
+    transform: scale(1.07);
   }
   .event-low-height {
     height: 265px;
-    align-content:end
+    align-content:end;
+    transition: transform .15s;
+  }
+  .event-low-height:hover {
+    height: 265px;
+    align-content:end;
+    transform: scale(1.07);
   }
   .bg-green{
     background-color: rgb(18, 181, 18);
+    transition: transform .15s;
+  }
+  .bg-green:hover{
+    background-color: rgb(18, 181, 18);
+    transform: scale(1.07);
+    box-shadow: 0px 0px 10px 5px rgba(18, 181, 18, 0.516) !important;
   }
 .bg-light-green {
   color: white;
   background-color: rgb(47, 201, 47);
+  transition: transform .15s;
 }
+.bg-light-green:hover {
+  color: white;
+  background-color: rgb(47, 201, 47);
+  transform: scale(1.07);
+  box-shadow: 0px 0px 10px 5px rgba(47, 201, 47, 0.493) !important;}
 
 .event-img {
   object-fit: cover;
